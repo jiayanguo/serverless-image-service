@@ -11,7 +11,6 @@ Update your credential for s3 or blob in the constant/index.js file.
 
 ## Note
 If you are runing on auzre. make below changes in the azure-function-express lib.
-chnages in the lib of azure-function-express
 
 OutgoingMessage.js (node_modules/azure-function-express/lib/OutgoingMessage.js) end method
 Original: context.res.body = convertToBody(data, encoding);
