@@ -1,6 +1,6 @@
 ## cloud agnostic serverless
 
-This is serverless service, which could pull images from aws s3 or azure blob. And it is a cloud agnostic, which could support azure function and aws lambda.
+This is a serverless service, which could pull images from aws s3 or azure blob. And it is a cloud agnostic, which could support azure function and aws lambda.
 When run on aws lambda, copy index.js in the aws foler to root folder.
 
 Note: this application also support hybrid cloud, choose different service js in the service folder to connect to different cloud (s3 or blob).
